@@ -21,3 +21,4 @@ export PATH="/Users/cparedes/.rd/bin:$PATH"
 ### MANAGED BY RANCHER DESKTOP END (DO NOT EDIT)
 
 alias kc="kubectl"
+export GPG_TTY=$(tty)
