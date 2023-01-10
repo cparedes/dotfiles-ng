@@ -1,0 +1,8 @@
+[user]
+	signingkey = 0D011DCCD29FA218
+	name = Ian Paredes
+	email = ian.paredes@cts.co
+[commit]
+	gpgsign = true
+[gpg]
+	program = /opt/homebrew/bin/gpg
