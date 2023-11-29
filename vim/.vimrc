@@ -11,6 +11,11 @@ call vundle#begin()
 Plugin 'VundleVim/Vundle.vim'
 
 Plugin 'hashivim/vim-terraform'
+Plugin 'jvirtanen/vim-hcl'
+Plugin 'rhadley-recurly/vim-terragrunt'
+Plugin 'pangloss/vim-javascript'
+Plugin 'leafgarland/typescript-vim'
+Plugin 'maxmellon/vim-jsx-pretty'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -32,3 +37,8 @@ set tabstop=4
 set softtabstop=4
 set shiftwidth=4
 set expandtab
+
+" Terraform settings
+let g:terraform_align=1
+let g:terraform_fmt_on_save=1
+let g:hcl_fmt_autosave=1
